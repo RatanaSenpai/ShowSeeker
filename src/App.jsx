@@ -10,6 +10,7 @@ import { TVShowListItem } from "./components/TVShowListItem/TVShowListItem.jsx";
 
 export function App() {
     const [currentTVShow, setCurrentTVShow] = useState();
+    const [recommendationList, setRecommendationList] = useState([]);
 
     async function fetchPopulars() {
         const populars = await TVShowAPI.fetchPopulars();
@@ -17,9 +18,25 @@ export function App() {
             setCurrentTVShow(populars[0]);
         }
     }
+
+    async function fetchRecommendations(tvShowId) {
+        const recommendations = await TVShowAPI.fetchRecommendations(
+            tvShowId
+        );
+        if (recommendations.length > 0) {
+            setRecommendationList(recommendations.slice(0, 10));
+        }
+    }
+
     useEffect(() => {
         fetchPopulars();
     }, []);
+
+    useEffect(() => {
+        if (currentTVShow) {
+            fetchRecommendations(currentTVShow.id);
+        }
+    }, [currentTVShow]);
 
     console.log("***", currentTVShow);
 
@@ -27,6 +44,7 @@ export function App() {
         alert(JSON.stringify(tvShow));
     }
 
+    console.log('***', recommendationList);
     return (
 
         <div className={s.main_container}
