@@ -1,6 +1,5 @@
 import axios from "axios";
-const BASE_URL = "https://api.themoviedb.org/3/";
-const API_KEY_PARAM = "?api_key=9adccddab05670b7227438f18baa5f60";
+import { BASE_URL, API_KEY_PARAM } from "../config";
 
 export class TVShowAPI {
     static async fetchPopulars() {
