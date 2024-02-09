@@ -7,6 +7,7 @@ import { TVShowDetail } from "./components/TVShowDetail/TVShowDetail.jsx"
 import { Logo } from "./components/Logo/Logo.jsx";
 import logo from "./assets/images/logo.png"
 import { TVShowList } from "./components/TVShowList/TVShowList.jsx";
+import { SearchBar } from "./components/SearchBar/SearchBar.jsx";
 
 export function App() {
     const [currentTVShow, setCurrentTVShow] = useState();
@@ -64,7 +65,7 @@ export function App() {
                         />
                     </div>
                     <div className="col-sm-12 col-md-4">
-                        <input style={{ width: "100%" }} type="text" />
+                        <SearchBar />
                     </div>
                 </div>
             </div>
