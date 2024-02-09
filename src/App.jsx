@@ -20,7 +20,7 @@ export function App() {
                 setCurrentTVShow(populars[0]);
             }
         } catch (error) {
-            alert("Erreur du serveur durant la recherche des séries recommendées:" + " " + error.message)
+            alert("Erreur du serveur durant la recherche des séries recommendées: " + error.message)
         }
 
     }
@@ -53,7 +53,7 @@ export function App() {
                 setCurrentTVShow(searchResponse[0]);
             }
         } catch (error) {
-            alert("Erreur du serveur durant la recherche de la série:" + " " + error.message);
+            alert("Erreur du serveur durant la recherche de la série: " + error.message);
         }
 
     }
