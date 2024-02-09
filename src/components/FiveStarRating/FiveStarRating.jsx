@@ -16,11 +16,11 @@ export function FiveStarRating({ rating }) {
 
     // Pusher dans le tableau les étoiles pleine
     for (let i = 1; i <= starFillCount; i++) {
-        starList.push(<StarFill key={"star-fill" + i} />);
+        starList.push(<StarFill className={s.star} key={"star-fill" + i} />);
     }
     // Pusher dans le tableau les démi étoiles (s'il y'en a)
     if (hasStarHalf) {
-        starList.push(<StarHalf key={"star-half"} />);
+        starList.push(<StarHalf className={s.star} key={"star-half"} />);
     }
     // Pusher dans le tableau les étoiles vide
     for (let i = 1; i <= emptyStarCount; i++) {
