@@ -14,10 +14,15 @@ export function App() {
     const [recommendationList, setRecommendationList] = useState([]);
 
     async function fetchPopulars() {
-        const populars = await TVShowAPI.fetchPopulars();
-        if (populars.length > 0) {
-            setCurrentTVShow(populars[0]);
+        try {
+            const populars = await TVShowAPI.fetchPopulars();
+            if (populars.length > 0) {
+                setCurrentTVShow(populars[0]);
+            }
+        } catch (error) {
+            alert("Erreur du serveur durant la recherche des séries recommendées:" + " " + error.message)
         }
+
     }
 
     async function fetchRecommendations(tvShowId) {
@@ -42,10 +47,15 @@ export function App() {
 
 
     async function searchTVShow(tvShowName) {
-        const searchResponse = await TVShowAPI.fetchByTitle(tvShowName);
-        if (searchResponse.length > 0) {
-            setCurrentTVShow(searchResponse[0]);
+        try {
+            const searchResponse = await TVShowAPI.fetchByTitle(tvShowName);
+            if (searchResponse.length > 0) {
+                setCurrentTVShow(searchResponse[0]);
+            }
+        } catch (error) {
+            alert("Erreur du serveur durant la recherche de la série:" + " " + error.message);
         }
+
     }
 
 
