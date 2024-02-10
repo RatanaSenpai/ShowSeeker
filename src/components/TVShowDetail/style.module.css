@@ -21,4 +21,14 @@
         height: 120px;
         overflow-y: hidden;
         margin-top: 10px;
+        margin-bottom: 20px;
     }
+
+    .trailerButton {
+        display: inline-block;
+        background-color: #FF0200;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    
