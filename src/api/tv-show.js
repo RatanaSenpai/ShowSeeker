@@ -3,7 +3,7 @@ import { BASE_URL } from "../config";
 
 export class TVShowAPI {
     static async fetchPopulars() {
-        const response = await axios.get(`${BASE_URL}tv/popular?api_key=${process.env.REACT_APP_API_KEY_PARAM}&language=fr-FR`);
+        const response = await axios.get(`${BASE_URL}tv/top_rated?api_key=${process.env.REACT_APP_API_KEY_PARAM}&language=fr-FR`);
         return response.data.results;
     }
 
