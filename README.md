@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# ShowSeeker 📺
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue sur ShowSeeker, l'appli incontournable pour tous les aficionados de séries qui cherchent leur prochain coup de cœur ! 🎬
 
-## Available Scripts
+## C'est quoi, ShowSeeker ?
 
-In the project directory, you can run:
+ShowSeeker est une appli web développée avec amour par un développeur passionné (c'est moi !), conçue pour t'aider à naviguer dans le vaste océan des séries télé. Grâce à une interface simple et intuitive, tu peux découvrir les séries les plus populaires et les mieux notées du moment. Plus jamais tu ne te demanderas "Qu'est-ce que je peux regarder maintenant ?" 😉
 
-### `npm start`
+### Pourquoi TrouveTaSérie ?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Découvre les tendances : Accède aux séries les plus en vogue.
+- Filtrage intelligent : Trouve exactement ce qui te plaît, selon tes goûts.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Sous le capot 🛠
+Curieux de savoir comment ça fonctionne ? TrouveTaSérie utilise la magie des APIs pour te fournir les infos les plus fraîches et précises sur les séries. En plongeant dans ce projet, j'ai appris à manier Axios, une bibliothèque client HTTP basée sur les promesses, pour faire des requêtes API comme un chef.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Comment j'ai appris ?
+En tant que développeur junior, j'ai voulu me challenger en intégrant des fonctionnalités de recherche et de filtrage avancées dans cette appli. Utiliser Axios m'a non seulement aidé à comprendre le fonctionnement des requêtes asynchrones mais m'a aussi permis de pratiquer la manipulation des données et l'intégration d'APIs externes. Chaque ligne de code a été une opportunité d'apprendre et de progresser. 🚀
 
-### `npm run build`
+### Commencez votre aventure avec ShowSeeker !
+1- Clonez le repo : git clone url_du_repo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2- Installez les dépendances : npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3- Lancez l'appli : npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4- Explorez l'univers infini des séries !
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contribuez !
+TrouveTaSérie est un projet open-source. Si tu as des idées pour l'améliorer ou si tu veux apprendre à utiliser les APIs, n'hésite pas à contribuer. Toute aide est la bienvenue !
