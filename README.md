@@ -8,7 +8,7 @@ Bienvenue sur ShowSeeker, l'appli incontournable pour tous les aficionados de s�
 
 Show Seeker est une appli web développée avec amour par un développeur passionné (c'est moi !), conçue pour t'aider à naviguer dans le vaste océan des séries télé. Grâce à une interface simple et intuitive, tu peux découvrir les séries les plus populaires et les mieux notées du moment. Plus jamais tu ne te demanderas "Qu'est-ce que je peux regarder maintenant ?" 😉
 
-### Pourquoi TrouveTaSérie ?
+### Pourquoi Show Seeker ?
 
 - Découvre les tendances : Accède aux séries les plus en vogue.
 - Filtrage intelligent : Trouve exactement ce qui te plaît, selon tes goûts.
