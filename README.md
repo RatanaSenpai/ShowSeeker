@@ -26,3 +26,6 @@ https://showseeker-ratanasenpai.vercel.app/
 
 Contribuez !
 Show Seeker est un projet open-source. Si tu as des idées pour l'améliorer ou si tu veux apprendre à utiliser les APIs, n'hésite pas à contribuer. Toute aide est la bienvenue !
+
+## Stacks
+<p align="left">  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
