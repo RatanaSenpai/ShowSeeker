@@ -28,4 +28,8 @@ Contribuez !
 Show Seeker est un projet open-source. Si tu as des idées pour l'améliorer ou si tu veux apprendre à utiliser les APIs, n'hésite pas à contribuer. Toute aide est la bienvenue !
 
 ## Stacks
-<p align="left">  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
+<p align="left">  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <img src="https://fiverr-res.cloudinary.com/images/t_thumbnail3_3,q_auto,f_auto/gigs/328756676/original/6ae5c91407076e38503132c0b1e9b80ae5022b27/help-in-axios-and-mongodb-queries.png"/> </p> 
+
+
+
+
